@@ -256,6 +256,10 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_9,           selectscheme,   {.i =  8} },
 	{ MODKEY,               XK_0,           nextscheme,     {.i = +1} },
 	{ MODKEY|ControlMask,   XK_0,           nextscheme,     {.i = -1} },
+	{ MODKEY,               XK_u,           kscrollup,   	{.i = -1} },
+	{ MODKEY,               XK_d,           kscrolldown,   	{.i = -1} },
+	//{ ShiftMask,		XK_Page_Up,	kscrollup,	{.i = -1} },
+	//{ ShiftMask,		XK_Page_Down,	kscrolldown,	{.i = -1} },
 };
 
 /*
