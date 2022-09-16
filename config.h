@@ -164,10 +164,17 @@ static const ColorScheme schemes[] = {
 	  "#928374", "#9d0006", "#79740e", "#b57614",
 	  "#076678", "#8f3f71", "#427b58", "#3c3836",
 	  [256]="#3c3836", "#555555"}, 15, 0, 256, 257},
+
+	// Cyberpunk-Neon
+	{{"#123e7c", "#ff0000", "#d300c4", "#f57800",
+	  "#123e7c", "#711c91", "#0abdc6", "#d7d7d5",
+	  "#1c61c2", "#ff0000", "#d300c4", "#f57800",
+	  "#00ff00", "#711c91", "#0abdc6", "#d7d7d5",
+	  [256]="#0abdc6", "#000b1e"}, 256, 257, 0, 258},
 };
 
 static const char * const * colorname;
-int colorscheme = 1;
+int colorscheme = 0;
 
 /*
  * Default colors (colorname index)
@@ -185,7 +192,7 @@ static unsigned int defaultrcs;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 4;
+static unsigned int cursorshape = 2;
 
 /*
  * Default columns and rows numbers
